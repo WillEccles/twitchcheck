@@ -5,7 +5,7 @@ function httpGet(url) {
 		xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
 	}
 	xmlhttp.onreadystatechange = function() {
-		if (xmlhttp.readState == 4 && xmlhttp.status = 200) {
+		if (xmlhttp.readState == 4 && xmlhttp.status == 200) {
 			return xmlhttp.responseText;
 		}
 	}
